@@ -1,0 +1,185 @@
+.texto-musica{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+     color: #ffffff;
+    
+    
+     margin-bottom: 0%;
+     text-align: center;
+}
+.musica{
+    display: flex;
+    overflow-x: auto;
+}
+.music{
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 40%;
+    margin-bottom: 15px;
+}
+.reb::-webkit-scrollbar {
+    background: #E14D2A;
+   
+  }
+.reb::-webkit-scrollbar-thumb{
+    background-color: #FD841F;
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid FD841F;
+    width: 40px;
+}
+.pop::-webkit-scrollbar {
+    background: #E14D2A;
+  }
+.pop::-webkit-scrollbar-thumb{
+    background-color: #9A1663 ;
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid FD841F;
+    width: 40px;
+}
+.taylor-swift::-webkit-scrollbar {
+    background: #E14D2A;
+  }
+.taylor-swift::-webkit-scrollbar-thumb{
+    background-color: #CD104D ;
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid FD841F;
+    width: 40px;
+}
+.legenda{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.series {
+    display: flex;
+    overflow-x: auto;
+  }
+.sitcom{
+    
+    height: 250px;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.sitcoms::-webkit-scrollbar {
+    background: #9A1663;
+}
+.sitcoms::-webkit-scrollbar-thumb{
+    background-color: #FF5200;
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid FD841F;
+    width: 40px;
+}
+.sci-fi::-webkit-scrollbar {
+    background: #9A1663;
+}
+.sci-fi::-webkit-scrollbar-thumb{
+    background-color: #F21170;
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid FD841F;
+    width: 40px;
+}
+.fantasia::-webkit-scrollbar {
+    background: #9A1663;
+}
+.fantasia::-webkit-scrollbar-thumb{
+    background-color: #FA9905;
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid FD841F;
+    width: 40px;
+}
+.susp::-webkit-scrollbar {
+    background: #9A1663;
+}
+.susp::-webkit-scrollbar-thumb{
+    background-color: #72147E;
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid FD841F;
+    width: 40px;
+}
+.nav-item:hover{
+    background-color: #080808;
+    border-radius: 15px;
+}
+.series:hover :not(:hover){
+    opacity: 0.3;
+}
+.sitcom:hover{
+    scale: 1.1;
+}
+/* ======================== */
+/* 
+    Ignore the following styles. They are not important to achieve the effect.
+    I'm only using them for looks (overall page background/font styles/centering content).
+*/
+
+
+/* ======================== */
+.icons {
+	display: flex;
+	column-gap: 25px;
+}
+.icon {
+	display: inline-flex;
+	width: 60px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 26px;
+	color: #fff;
+	border-radius: 50%;
+	outline: 2px solid #fff;
+	transition-property: outline-offset, outline-color, background-color;
+	transition-duration: 0.25s;
+}
+.icon:hover {
+	outline-offset: 4px;
+}
+.icon i {
+	margin: auto;
+}
+.icon:hover i {
+	animation: shake 0.25s;
+}
+.icon--instagram:hover {
+	background-image: radial-gradient(
+		circle at 30% 107%,
+		#fdf497 0%,
+		#fdf497 5%,
+		#fd5949 45%,
+		#d6249f 60%,
+		#285aeb 90%
+	);
+	outline-color: #a02d76;
+}
+.icon--twitter:hover {
+	background-color: #1da1f2;
+	outline-color: #1da1f2;
+}
+.icon--linkedin:hover {
+	background-color: #0077b5;
+	outline-color: #0077b5;
+}
+.icon--github:hover {
+	background-color: #2ea44f;
+	outline-color: #2ea44f;
+}
+@keyframes shake {
+	10% {
+		transform: rotate(15deg);
+	}
+	20% {
+		transform: rotate(-15deg);
+	}
+	30% {
+		transform: rotate(15deg);
+	}
+	40% {
+		transform: rotate(-15deg);
+	}
+}
+.icons{
+    justify-content: center;
+    
+}
+
+
